@@ -3,6 +3,8 @@ package com.tom
 import javafx.scene.text.FontWeight
 
 fun main() {
+    val stu=com.kotlin.Student("Hank",50,60)
+
     var s:String?="abcde"
     s=null
     println(s?.length)

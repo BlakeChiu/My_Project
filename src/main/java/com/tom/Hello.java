@@ -1,7 +1,12 @@
 package com.tom;
 
+
+import com.kotlin.Student;
+
 public class Hello {
     public static void main(String[] args) {
+        Student stu=new Student("Hank",50,60);
+
         //  System.out.println("Hello world");
         String s = "abcde";
         System.out.println(s.charAt(3));
@@ -14,7 +19,7 @@ public class Hello {
         System.out.println(p.bmi());
         int score = 88;
         System.out.println(score < 80 || score > 90);
-        char c = 'A'; //A的Unicode大小為65,a則為97
+        char c = 'A'; //A   的Unicode大小為65,a則為97
         System.out.println(c > 'a');
  /*       int age =19;
         Integer age2=19;
